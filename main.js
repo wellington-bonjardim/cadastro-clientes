@@ -18,12 +18,6 @@ function fecharNovoCliente() {
 //CRUD - create, read, update, delete
 
 //CRUD - CREATE
-const tempClient = {
-    nome: "Fabiana",
-    email: "emailteste6@gmail.com",
-    telefone: "21912345678",
-    cidade: "Rio de Janeiro"
-}
 
 let getLocalStorage = () => JSON.parse(localStorage.getItem('db_client')) ?? [] /*usei ?? para retornar pelo menos um array vazio e não dar erro no push*/
 let setLocalStorage = (dbClient) => localStorage.setItem("db_client", JSON.stringify(dbClient))
@@ -76,3 +70,5 @@ window.onload = function() {
     
     document.getElementById('cadastrar').addEventListener('click', saveClient)
 }
+
+//----FAZENDO OS DADOS APARECEREM AO CARREGAR A PÁGINA-------//
