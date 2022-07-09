@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-Esta é uma aplicação que será capaz de armazenar dados pessoais de clientes. Além de armazenar estes dados, os responsáveis pela utilização da interface serão capazes de editar e excluir cadastros sempre que for necessário.
+Esta é uma aplicação que será capaz de armazenar dados pessoais de clientes como nome, e-mail, telefone e cidade. Além de armazenar estes dados, os responsáveis pela utilização da interface serão capazes de editar e/ou excluir cadastros sempre que for necessário.
 
 # Descrição do projeto
 
